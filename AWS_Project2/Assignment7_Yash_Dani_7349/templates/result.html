@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<body>
+	<center>
+	<script src="//d3js.org/d3.v4.min.js" charset="utf-8"></script>
+		<header>
+		<title>Yash Dani 1001707349</title></header>
+
+		<div>
+		<table border = 1 align="center">
+			<h2>Yash Dani 1001707349</h2>
+			<br>
+			<h3>Availability of Course</h3>
+			<br>
+			<tr>
+
+				<td>Course</td>
+				<td>Section</td>
+				<td>Availability</td>
+				<td>Instructor</td>
+				<td>Days</td>
+
+			</tr>
+			{% for row in rows %}
+			<tr>
+
+				<td>{{row[0]}}</td>
+				<td>{{row[1]}}</td>
+				<td>{{row[7]}}</td>
+				<td>{{row[5]}}</td>
+				<td>{{row[2]}}</td>
+			</tr>
+			{% endfor %}
+			<h2> <a href = "/">Home</a></h2>
+		</table>
+		<br>
+	</div>
+	</body>
+</html>

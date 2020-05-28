@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<body>
+	<center>
+	<script src="//d3js.org/d3.v4.min.js" charset="utf-8"></script>
+		<header>
+		<title>Yash Dani 1001707349</title></header>
+		<br>
+		<h2>Yash Dani 1001707349</h2>
+		<br>
+		<h3>Count:{{count[0]}}</h3>
+		<br>
+		<h3>centroid distance between point:{{u}}</h3>
+		<br>
+		<h3>Tightly packed clusters:{{result}}</h3><br>
+		<h3>Time:{{tt}}</h3>
+		<table border = 1 align="center">
+			{% for i in range(lent)%}
+
+
+				<td> {{arr[i]}} </td>
+				<td> {{arr[i][1]}} </td>
+
+				<td> {{u[i]}} </td>
+
+			</tr>
+			{% endfor %}
+		</table>
+
+		<table border = 1 align="center">
+			{% for i in dist_c %}
+			<tr>
+					{% for j in i %}
+					<td>{{j}}</td>
+					{% endfor %}
+
+			</tr>
+			{% endfor %}
+			<h2> <a href = "/">Home</a></h2>
+		</table>
+		<br>
+
+	</body>
+</html>

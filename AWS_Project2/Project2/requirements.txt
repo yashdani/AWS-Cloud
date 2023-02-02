@@ -5,5 +5,5 @@ Jinja2==2.10.1
 joblib==0.13.2
 MarkupSafe==1.1.1
 PyMySQL==0.9.3
-Werkzeug==0.15.4
+Werkzeug==0.15.5
 Django==1.9.8
